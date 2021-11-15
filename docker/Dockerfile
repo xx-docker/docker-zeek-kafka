@@ -1,5 +1,5 @@
 FROM debian:stretch
-ENV ZEEK_VERSION 3.0.3
+ENV ZEEK_VERSION 4.1.1
 RUN apt-get update && apt-get install -y \
   bison \
   build-essential \
